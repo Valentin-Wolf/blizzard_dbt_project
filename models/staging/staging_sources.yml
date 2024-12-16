@@ -1,0 +1,13 @@
+version: 2
+sources:
+
+- name: staging_weather
+  schema: sql_api_group1
+  tables:
+    - name: weather_daily_raw_blizzard
+
+- name: staging_flights
+  schema: sql_api_group1
+  tables:
+    - name: flights_all_blizzard
+    - name: airports
