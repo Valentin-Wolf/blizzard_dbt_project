@@ -11,3 +11,4 @@ sources:
   tables:
     - name: flights_all_blizzard
     - name: airports
+    - name: regions
